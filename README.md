@@ -1,12 +1,15 @@
-# Setting Up an Azure Virtual Machine Homelab for Windows Server Practice
+<p align="center">
+  <img src="/images/azure-logo.png" width="196" height="196" />
+</p>
 
-This colorful tutorial will guide you through creating your own Azure VM homelab environment for practicing Windows Server administration. It builds on the previous tutorial for accessing Microsoft software through your St. Clair College account.
+<div align="center">
+
+# Setting Up an Azure Virtual Machine Homelab
 
 ## Prerequisites
 
 - St. Clair College student account
-- $100 free Azure credits (available to St. Clair students)
-- Basic understanding of virtual machines
+- $100 free Azure credits (available to St. Clair students, no credit card needed!)
 
 ## Step 1: Access Your Azure Educational Account
 
@@ -16,6 +19,8 @@ This colorful tutorial will guide you through creating your own Azure VM homelab
 4. If you see the Microsoft "Pick an Account" prompt, select "**Use another account**"
 5. Enter your **StClairConnect email address** and **existing password**
 
+note: if you want to original st clair tutorial download the word docx in tutorial folder
+
 ## Step 2: Navigate the Azure Portal
 
 Once logged in, you'll see the Azure Portal dashboard:
@@ -24,9 +29,22 @@ Once logged in, you'll see the Azure Portal dashboard:
 2. In the search field, type "**Education**"
 3. This will show all available software through your student account
 
+<div style="text-align:center;">
+
+![Education-tab-overview](/images/education-overview.png)
+
+</div>
+
 ## Step 3: Create Your Virtual Machine
 
 1. From the Azure dashboard, locate and click on the "**Virtual Machines**" tab
+
+<div style="text-align:center;">
+
+![All-the-services](/images/all-services.png)
+
+</div>
+
 2. Click "**Create**" or "**+ Add**" to start creating a new VM
 3. Fill in the necessary information:
    - **Virtual Machine Name**: Choose a descriptive name
