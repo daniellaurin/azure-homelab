@@ -2,9 +2,19 @@
   <img src="/images/azure-logo.png" width="196" height="196" />
 </p>
 
-<div align="center">
-
 # Setting Up an Azure Virtual Machine Homelab
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Step 1: Access Your Azure Educational Account](#step-1-access-your-azure-educational-account)
+- [Step 2: Navigate the Azure Portal](#step-2-navigate-the-azure-portal)
+- [Step 3: Create Your Virtual Machine](#step-3-create-your-virtual-machine)
+- [Step 4: Choose VM Size](#step-4-choose-vm-size)
+- [Step 5: Configure Basic Settings](#step-5-configure-basic-settings)
+- [Step 6: Connect to Your VM](#step-6-connect-to-your-vm)
+- [Step 7: Enable Hyper-V](#step-7-enable-hyper-v-if-not-already-enabled)
+- [Step 8: Create Windows Server VMs in Hyper-V](#step-8-create-windows-server-vms-in-hyper-v)
+- [Cost Management Tips](#cost-management-tips)
 
 ## Prerequisites
 
@@ -19,7 +29,7 @@
 4. If you see the Microsoft "Pick an Account" prompt, select "**Use another account**"
 5. Enter your **StClairConnect email address** and **existing password**
 
-note: if you want to original st clair tutorial download the word docx in tutorial folder
+> **Note**: If you want the original St. Clair tutorial, download the Word docx in the tutorial folder
 
 ## Step 2: Navigate the Azure Portal
 
@@ -29,23 +39,24 @@ Once logged in, you'll see the Azure Portal dashboard:
 2. In the search field, type "**Education**"
 3. This will show all available software through your student account
 
-<div style="text-align:center;">
-
-![Education-tab-overview](/images/education-overview.png)
-
-</div>
+<p align="center">
+  <img src="/images/education-overview.png" alt="Education-tab-overview" />
+</p>
 
 ## Step 3: Create Your Virtual Machine
 
 1. From the Azure dashboard, locate and click on the "**Virtual Machines**" tab
 
-<div style="text-align:center;">
+<p align="center">
+  <img src="/images/all-services.png" alt="All-the-services" />
+</p>
 
-![All-the-services](/images/all-services.png)
+2. Click "**Create**" to start creating a new VM
 
-</div>
+<p align="center">
+  <img src="/images/virt-create.png" alt="virtual-machine-dashboard" />
+</p>
 
-2. Click "**Create**" or "**+ Add**" to start creating a new VM
 3. Fill in the necessary information:
    - **Virtual Machine Name**: Choose a descriptive name
    - **Image (ISO)**: Select **Windows 10 Pro** (to have access to Hyper-V)
@@ -75,6 +86,10 @@ Select a size based on your needs and budget:
 3. Note the connection details (example: 20.163.59.125:3389 for RDP port)
 4. Download the RDP file
 5. Open the RDP file and enter your VM credentials when prompted
+
+<p align="center">
+  <img src="/images/rdp-tab.png" alt="RDP-overview" />
+</p>
 
 ## Step 7: Enable Hyper-V (If Not Already Enabled)
 
