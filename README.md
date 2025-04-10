@@ -29,7 +29,7 @@
 4. If you see the Microsoft "Pick an Account" prompt, select "**Use another account**"
 5. Enter your **StClairConnect email address** and **existing password**
 
-> **Note**: If you want the original St. Clair tutorial, download the Word docx in the tutorial folder
+> 💡 **Note**: If you want the original St. Clair tutorial, download the Word docx in the tutorial folder
 
 ## Step 2: Navigate the Azure Portal
 
